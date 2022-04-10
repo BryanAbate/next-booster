@@ -1,0 +1,62 @@
+{
+  "name": "next-booster",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Propulse your Next.js application with a minimal state of the art template.",
+  "homepage": "https://github.com/BryanAbate/next-booster",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BryanAbate/next-booster.git"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "nextjs",
+    "next",
+    "boilerplate",
+    "template",
+    "redux"
+  ],
+  "author": {
+    "name": "Bryan Abate",
+    "url": "https://github.com/BryanAbate"
+  },
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --report-unused-disable-directives",
+    "lint:fix": "eslint . --report-unused-disable-directives --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "@types/react-redux": "^7.1.23",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "^7.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-next": "12.1.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "2.5.1",
+    "typescript": "4.6.3"
+  }
+}
