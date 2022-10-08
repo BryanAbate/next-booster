@@ -4,11 +4,12 @@
 
 A minimal template to propulse your Next.js application with a state of the art tech stack, lint and format rules:
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Next.js](https://nextjs.org/)
-- [Prettier](https://prettier.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Query](https://tanstack.com/query/v4)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
 - [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 ## Goal
 
@@ -19,6 +20,10 @@ By using a very small set of features, this template aims to be easy to update s
 - Easily maintanable
 - Easily extendable
 - Suits most needs
+
+## Note on state management
+
+We recommend using [Zustand](https://github.com/pmndrs/zustand) instead of Redux for state management. But considering how popular Redux is we chose to keep it as default for now.
 
 ## What is missing
 
