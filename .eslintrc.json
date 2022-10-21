@@ -48,7 +48,6 @@
         "max-len": "off",
         // Disabled for state because of RTK and immer
         "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["state"] }],
-        "no-restricted-syntax": "off",
         "react/destructuring-assignment": "off",
         "react/function-component-definition": "off",
         "react/jsx-key": "error",
