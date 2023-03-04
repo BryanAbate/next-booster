@@ -7,7 +7,6 @@ A minimal template to propulse your Next.js application with a state of the art 
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Query](https://tanstack.com/query/v4)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
@@ -21,12 +20,12 @@ By using a very small set of features, this template aims to be easy to update s
 - Easily extendable
 - Suits most needs
 
-## Note on state management
+## Recommended libraries
 
-We recommend using [Zustand](https://github.com/pmndrs/zustand) instead of Redux for state management. But considering how popular Redux is we chose to keep it as default for now.
+### State management.
 
-## What is missing
+We recommend using [Zustand](https://github.com/pmndrs/zustand).
 
 ### Styling
 
-This repo does not give any guideline for styling for now, we recommend giving a look at [TailwindCSS](https://tailwindcss.com/).
+We recommend giving a look at [TailwindCSS](https://tailwindcss.com/).
